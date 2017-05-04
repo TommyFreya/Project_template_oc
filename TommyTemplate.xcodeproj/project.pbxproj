@@ -65,6 +65,10 @@
 		A76E9C4C1EBB1CC10091915D /* TYBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9C4B1EBB1CC10091915D /* TYBaseRequest.m */; };
 		A76E9C4F1EBB21E80091915D /* TYAnimatingRequestAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9C4E1EBB21E80091915D /* TYAnimatingRequestAccessory.m */; };
 		A76E9C521EBB22BA0091915D /* TYUploadFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9C511EBB22BA0091915D /* TYUploadFileRequest.m */; };
+		A76E9C551EBB2B490091915D /* TYBaseDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9C541EBB2B490091915D /* TYBaseDataController.m */; };
+		A76E9C581EBB2D2B0091915D /* TYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9C571EBB2D2B0091915D /* TYBaseViewController.m */; };
+		A76E9C5E1EBB2D5A0091915D /* TYBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9C5D1EBB2D5A0091915D /* TYBaseWebViewController.m */; };
+		A76E9C611EBB2D800091915D /* TYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9C601EBB2D800091915D /* TYBaseNavigationController.m */; };
 		E00CB61B07E861A23130BF16 /* libPods-TommyTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4B1D052F809811E35F67ED /* libPods-TommyTemplate.a */; };
 /* End PBXBuildFile section */
 
@@ -211,6 +215,14 @@
 		A76E9C4E1EBB21E80091915D /* TYAnimatingRequestAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAnimatingRequestAccessory.m; sourceTree = "<group>"; };
 		A76E9C501EBB22BA0091915D /* TYUploadFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYUploadFileRequest.h; sourceTree = "<group>"; };
 		A76E9C511EBB22BA0091915D /* TYUploadFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYUploadFileRequest.m; sourceTree = "<group>"; };
+		A76E9C531EBB2B490091915D /* TYBaseDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseDataController.h; sourceTree = "<group>"; };
+		A76E9C541EBB2B490091915D /* TYBaseDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseDataController.m; sourceTree = "<group>"; };
+		A76E9C561EBB2D2B0091915D /* TYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseViewController.h; sourceTree = "<group>"; };
+		A76E9C571EBB2D2B0091915D /* TYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseViewController.m; sourceTree = "<group>"; };
+		A76E9C5C1EBB2D5A0091915D /* TYBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseWebViewController.h; sourceTree = "<group>"; };
+		A76E9C5D1EBB2D5A0091915D /* TYBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseWebViewController.m; sourceTree = "<group>"; };
+		A76E9C5F1EBB2D800091915D /* TYBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseNavigationController.h; sourceTree = "<group>"; };
+		A76E9C601EBB2D800091915D /* TYBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,6 +285,7 @@
 		A76E9A941EB9789B0091915D /* TommyTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				A76E9B4B1EB988CE0091915D /* ViewControllers */,
 				A76E9AC81EB988CE0091915D /* Categories */,
 				A76E9B351EB988CE0091915D /* Macros_Const */,
 				A76E9B361EB988CE0091915D /* Models */,
@@ -282,7 +295,6 @@
 				A76E9B3A1EB988CE0091915D /* Tools */,
 				A76E9B3B1EB988CE0091915D /* Vender */,
 				A76E9B491EB988CE0091915D /* View */,
-				A76E9B4B1EB988CE0091915D /* ViewControllers */,
 				A76E9B4D1EB988CE0091915D /* ViewModels */,
 				A76E9A981EB9789B0091915D /* AppDelegate.h */,
 				A76E9A991EB9789B0091915D /* AppDelegate.m */,
@@ -454,6 +466,14 @@
 		A76E9B4C1EB988CE0091915D /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				A76E9C531EBB2B490091915D /* TYBaseDataController.h */,
+				A76E9C541EBB2B490091915D /* TYBaseDataController.m */,
+				A76E9C561EBB2D2B0091915D /* TYBaseViewController.h */,
+				A76E9C571EBB2D2B0091915D /* TYBaseViewController.m */,
+				A76E9C5F1EBB2D800091915D /* TYBaseNavigationController.h */,
+				A76E9C601EBB2D800091915D /* TYBaseNavigationController.m */,
+				A76E9C5C1EBB2D5A0091915D /* TYBaseWebViewController.h */,
+				A76E9C5D1EBB2D5A0091915D /* TYBaseWebViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -990,6 +1010,7 @@
 				A76E9BDA1EB9F0860091915D /* TYBaseAnimateView.m in Sources */,
 				A76E9B961EB9D3D00091915D /* TYRegExUtil.m in Sources */,
 				A76E9B7A1EB988CF0091915D /* MBProgressHUD.m in Sources */,
+				A76E9C611EBB2D800091915D /* TYBaseNavigationController.m in Sources */,
 				A76E9B8D1EB9CEB60091915D /* TYLocationObject.m in Sources */,
 				A76E9C341EBB0ECB0091915D /* UIButton+JKBackgroundColor.m in Sources */,
 				A76E9C211EBB0B850091915D /* UITextField+TYPlaceHolder.m in Sources */,
@@ -998,6 +1019,7 @@
 				A76E9BB01EB9D7960091915D /* TYNSStringMacroDefine.m in Sources */,
 				A76E9C061EBADC2F0091915D /* TYDataStoreService.m in Sources */,
 				A76E9BA71EB9D5FC0091915D /* GVUserDefaults+TYGlobalProperties.m in Sources */,
+				A76E9C5E1EBB2D5A0091915D /* TYBaseWebViewController.m in Sources */,
 				A76E9C4F1EBB21E80091915D /* TYAnimatingRequestAccessory.m in Sources */,
 				A76E9BE21EBAC1430091915D /* TYNetworkService.m in Sources */,
 				A76E9C241EBB0BA40091915D /* UITextField+TYInputLimit.m in Sources */,
@@ -1017,6 +1039,7 @@
 				A76E9A971EB9789B0091915D /* main.m in Sources */,
 				A76E9C3B1EBB198D0091915D /* NSString+JKSize.m in Sources */,
 				A76E9BAA1EB9D6690091915D /* TYWeakScriptMessageHandler.m in Sources */,
+				A76E9C581EBB2D2B0091915D /* TYBaseViewController.m in Sources */,
 				A76E9BFE1EBACF340091915D /* UIColor+HEX.m in Sources */,
 				A76E9C2C1EBB0D930091915D /* UIImage+Alpha.m in Sources */,
 				A76E9BF41EBACD7B0091915D /* TYPhotoPreviewService.m in Sources */,
@@ -1038,6 +1061,7 @@
 				A76E9BD41EB9EBB90091915D /* NSString+TYOpenLink.m in Sources */,
 				A76E9BB51EB9DA3E0091915D /* TYEnumValueService.m in Sources */,
 				A76E9C2D1EBB0D930091915D /* UIImage+Resize.m in Sources */,
+				A76E9C551EBB2B490091915D /* TYBaseDataController.m in Sources */,
 				A76E9C521EBB22BA0091915D /* TYUploadFileRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

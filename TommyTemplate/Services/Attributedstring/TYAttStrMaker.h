@@ -18,7 +18,7 @@
 /**
  初始化 make
 
- @param value 文本字符串
+ @param value 文本字符串›
  @param range 需要改变的范围(默认整个文本)
  @return <#return value description#>
  */
