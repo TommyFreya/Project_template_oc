@@ -49,22 +49,22 @@ PODS:
 DEPENDENCIES:
   - BlocksKit/UIKit (~> 2.2.5)
   - CRToast (~> 0.0.9)
-  - DZNEmptyDataSet
-  - IQKeyboardManager
+  - DZNEmptyDataSet (~> 1.8.1)
+  - IQKeyboardManager (~> 4.0.9)
   - JHChainableAnimations (~> 2.0)
   - JLRoutes (~> 2.0.1)
   - KVOController (= 1.1.0)
-  - Masonry
-  - MJRefresh
+  - Masonry (~> 1.0.2)
+  - MJRefresh (~> 3.1.12)
   - SDCycleScrollView (~> 1.64)
   - SDWebImage (~> 3.8)
-  - TXScrollLabelView
-  - TZImagePickerController
+  - TXScrollLabelView (~> 1.2.0)
+  - TZImagePickerController (~> 1.7.9)
   - UIActivityIndicator-for-SDWebImage
-  - WZLBadge
+  - WZLBadge (~> 1.2.5)
   - YTKKeyValueStore (= 0.1.2)
-  - YTKNetwork
-  - YYModel
+  - YTKNetwork (~> 2.0.3)
+  - YYModel (~> 1.0.4)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -79,7 +79,7 @@ SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
-  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
   TXScrollLabelView: 52d69bf41995fed1c33320e8f4ad1a1be8dab596
   TZImagePickerController: 0a8ff228d287ebdd7d485e8c42a2a932894f1fba
   UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
@@ -88,6 +88,6 @@ SPEC CHECKSUMS:
   YTKNetwork: c4b0c29c9d639dc050d475de69ee626d53eac598
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 7c40f4aa388ffa53eab76ffc570b6edcbf07dcd4
+PODFILE CHECKSUM: 91d7182e2b8587c24ad66f389ba6478e78eb7850
 
 COCOAPODS: 1.2.1

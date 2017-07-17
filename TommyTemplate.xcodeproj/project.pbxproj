@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A76E6A7E1F1CBC13006F3AC0 /* TYRouteMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = A76E6A7D1F1CBC13006F3AC0 /* TYRouteMap.plist */; };
+		A76E6A801F1CBC53006F3AC0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A76E6A7F1F1CBC53006F3AC0 /* Info.plist */; };
 		A76E9A971EB9789B0091915D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9A961EB9789B0091915D /* main.m */; };
 		A76E9A9A1EB9789B0091915D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9A991EB9789B0091915D /* AppDelegate.m */; };
 		A76E9AA01EB9789B0091915D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76E9A9E1EB9789B0091915D /* Main.storyboard */; };
@@ -31,7 +33,6 @@
 		A76E9BB91EB9DBF10091915D /* TYHudAlertService.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9BB81EB9DBF10091915D /* TYHudAlertService.m */; };
 		A76E9BBD1EB9DFB60091915D /* TYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9BBC1EB9DFB60091915D /* TYAlertController.m */; };
 		A76E9BC31EB9E1F50091915D /* TYSystemAlertService.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9BC21EB9E1F50091915D /* TYSystemAlertService.m */; };
-		A76E9BC81EB9E8790091915D /* TYRouteMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = A76E9BC71EB9E8790091915D /* TYRouteMap.plist */; };
 		A76E9BCB1EB9E8A40091915D /* TYRouteService.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9BCA1EB9E8A40091915D /* TYRouteService.m */; };
 		A76E9BD41EB9EBB90091915D /* NSString+TYOpenLink.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9BD31EB9EBB90091915D /* NSString+TYOpenLink.m */; };
 		A76E9BD71EB9EE0D0091915D /* TYBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9BD61EB9EE0D0091915D /* TYBaseTableViewCell.m */; };
@@ -93,6 +94,8 @@
 		263870373920F99A2ED8B985 /* Pods-TommyTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TommyTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TommyTemplate/Pods-TommyTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		3A4B1D052F809811E35F67ED /* libPods-TommyTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TommyTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20AB2A1419432F5676FAD6C /* Pods-TommyTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TommyTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-TommyTemplate/Pods-TommyTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		A76E6A7D1F1CBC13006F3AC0 /* TYRouteMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TYRouteMap.plist; sourceTree = "<group>"; };
+		A76E6A7F1F1CBC53006F3AC0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A76E9A921EB9789B0091915D /* TommyTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TommyTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76E9A961EB9789B0091915D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A76E9A981EB9789B0091915D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,7 +103,6 @@
 		A76E9A9F1EB9789B0091915D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A76E9AA11EB9789B0091915D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A76E9AA41EB9789B0091915D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A76E9AA61EB9789B0091915D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A76E9AAB1EB9789B0091915D /* TommyTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TommyTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76E9AAF1EB9789B0091915D /* TommyTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TommyTemplateTests.m; sourceTree = "<group>"; };
 		A76E9AB11EB9789B0091915D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -145,7 +147,6 @@
 		A76E9BC11EB9E1F50091915D /* TYSystemAlertService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSystemAlertService.h; sourceTree = "<group>"; };
 		A76E9BC21EB9E1F50091915D /* TYSystemAlertService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYSystemAlertService.m; sourceTree = "<group>"; };
 		A76E9BC61EB9E84F0091915D /* TYRouteDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYRouteDefine.h; sourceTree = "<group>"; };
-		A76E9BC71EB9E8790091915D /* TYRouteMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TYRouteMap.plist; sourceTree = "<group>"; };
 		A76E9BC91EB9E8A40091915D /* TYRouteService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYRouteService.h; sourceTree = "<group>"; };
 		A76E9BCA1EB9E8A40091915D /* TYRouteService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYRouteService.m; sourceTree = "<group>"; };
 		A76E9BD21EB9EBB90091915D /* NSString+TYOpenLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TYOpenLink.h"; sourceTree = "<group>"; };
@@ -301,7 +302,6 @@
 				A76E9A9E1EB9789B0091915D /* Main.storyboard */,
 				A76E9AA11EB9789B0091915D /* Assets.xcassets */,
 				A76E9AA31EB9789B0091915D /* LaunchScreen.storyboard */,
-				A76E9AA61EB9789B0091915D /* Info.plist */,
 				A76E9A951EB9789B0091915D /* Supporting Files */,
 			);
 			path = TommyTemplate;
@@ -310,6 +310,7 @@
 		A76E9A951EB9789B0091915D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A76E6A7F1F1CBC53006F3AC0 /* Info.plist */,
 				A76E9A961EB9789B0091915D /* main.m */,
 				A76E9BE41EBAC34A0091915D /* TommyTemplate-Prefix.pch */,
 			);
@@ -571,7 +572,7 @@
 				A76E9BC61EB9E84F0091915D /* TYRouteDefine.h */,
 				A76E9BC91EB9E8A40091915D /* TYRouteService.h */,
 				A76E9BCA1EB9E8A40091915D /* TYRouteService.m */,
-				A76E9BC71EB9E8790091915D /* TYRouteMap.plist */,
+				A76E6A7D1F1CBC13006F3AC0 /* TYRouteMap.plist */,
 			);
 			path = URLRoute;
 			sourceTree = "<group>";
@@ -931,9 +932,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A76E9BC81EB9E8790091915D /* TYRouteMap.plist in Resources */,
+				A76E6A7E1F1CBC13006F3AC0 /* TYRouteMap.plist in Resources */,
 				A76E9AA51EB9789B0091915D /* LaunchScreen.storyboard in Resources */,
 				A76E9AA21EB9789B0091915D /* Assets.xcassets in Resources */,
+				A76E6A801F1CBC53006F3AC0 /* Info.plist in Resources */,
 				A76E9AA01EB9789B0091915D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1214,6 +1216,7 @@
 			baseConfigurationReference = 263870373920F99A2ED8B985 /* Pods-TommyTemplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TommyTemplate/TommyTemplate-Prefix.pch";
 				INFOPLIST_FILE = TommyTemplate/Info.plist;
@@ -1229,6 +1232,7 @@
 			baseConfigurationReference = A20AB2A1419432F5676FAD6C /* Pods-TommyTemplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TommyTemplate/TommyTemplate-Prefix.pch";
 				INFOPLIST_FILE = TommyTemplate/Info.plist;

@@ -20,6 +20,7 @@
 
 // 数据绑定赋值
 - (void)ty_bindDataToCellWithValue:(id)value;
+- (void)ty_bindDataToCellWithValue:(id)value indexPath:(NSIndexPath *)indexPath;
 
 // 解决 tableView cell 的分割线左边不到头的问题
 - (void)ty_separatorInsetZero;
