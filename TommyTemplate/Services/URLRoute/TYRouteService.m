@@ -45,9 +45,7 @@
         } else if ([action isEqualToString:@"poptoroot"]) {
             // ....
         } else if ([action isEqualToString:@"present"]) {
-            UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
-            
-            [[UIViewController topViewController] presentViewController:navi animated:YES completion:nil];
+            [[UIViewController topViewController] presentViewController:vc animated:YES completion:nil];
         } else if ([action isEqualToString:@"dismiss"]) {
             // ....
         } else {
