@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A734236D1F33250E004981B9 /* TYVerticalImageTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A734236C1F33250E004981B9 /* TYVerticalImageTitleButton.m */; };
+		A73665BD1F68D755001255E7 /* NSMutableArray+TYSafeCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A73665BC1F68D755001255E7 /* NSMutableArray+TYSafeCheck.m */; };
 		A76E6A7E1F1CBC13006F3AC0 /* TYRouteMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = A76E6A7D1F1CBC13006F3AC0 /* TYRouteMap.plist */; };
 		A76E6A801F1CBC53006F3AC0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A76E6A7F1F1CBC53006F3AC0 /* Info.plist */; };
 		A76E9A971EB9789B0091915D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76E9A961EB9789B0091915D /* main.m */; };
@@ -97,6 +98,8 @@
 		A20AB2A1419432F5676FAD6C /* Pods-TommyTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TommyTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-TommyTemplate/Pods-TommyTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		A734236B1F33250E004981B9 /* TYVerticalImageTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVerticalImageTitleButton.h; sourceTree = "<group>"; };
 		A734236C1F33250E004981B9 /* TYVerticalImageTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVerticalImageTitleButton.m; sourceTree = "<group>"; };
+		A73665BB1F68D755001255E7 /* NSMutableArray+TYSafeCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+TYSafeCheck.h"; sourceTree = "<group>"; };
+		A73665BC1F68D755001255E7 /* NSMutableArray+TYSafeCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+TYSafeCheck.m"; sourceTree = "<group>"; };
 		A76E6A7D1F1CBC13006F3AC0 /* TYRouteMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TYRouteMap.plist; sourceTree = "<group>"; };
 		A76E6A7F1F1CBC53006F3AC0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A76E9A921EB9789B0091915D /* TommyTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TommyTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -271,6 +274,15 @@
 				A734236C1F33250E004981B9 /* TYVerticalImageTitleButton.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		A73665BA1F68D6CB001255E7 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				A73665BB1F68D755001255E7 /* NSMutableArray+TYSafeCheck.h */,
+				A73665BC1F68D755001255E7 /* NSMutableArray+TYSafeCheck.m */,
+			);
+			path = NSArray;
 			sourceTree = "<group>";
 		};
 		A76E9A891EB9789B0091915D = {
@@ -609,6 +621,7 @@
 		A76E9BD01EB9EB520091915D /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				A73665BA1F68D6CB001255E7 /* NSArray */,
 				A76E9C3C1EBB1B270091915D /* NSDictionary */,
 				A76E9BD11EB9EB520091915D /* NSString */,
 			);
@@ -1022,6 +1035,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73665BD1F68D755001255E7 /* NSMutableArray+TYSafeCheck.m in Sources */,
 				A76E9BDA1EB9F0860091915D /* TYBaseAnimateView.m in Sources */,
 				A76E9B961EB9D3D00091915D /* TYRegExUtil.m in Sources */,
 				A76E9B7A1EB988CF0091915D /* MBProgressHUD.m in Sources */,
