@@ -26,7 +26,7 @@
     if (anObject) {
         [self safeAddObject:anObject];
     } else {
-        NSLog(@"safeAddObject: anObject is nil");
+        NSAssert(anObject,@"safeAddObject: anObject is nil");
     }
 }
 
@@ -35,7 +35,7 @@
     if (index >= 0 && index <= self.count) {
         return [self safeObjectAtIndex:index];
     }
-    NSLog(@"safeObjectAtIndex: index is invalid");
+    NSAssert([self safeObjectAtIndex:index], @"safeObjectAtIndex: index is invalid");
     return nil;
 }
 
