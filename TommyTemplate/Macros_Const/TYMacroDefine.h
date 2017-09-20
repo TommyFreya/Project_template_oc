@@ -17,6 +17,9 @@
 #define IS_IPHONE_6P (SCREEN_MAX_LENGTH == 736.0)
 #define IS_IPHONE_5 (SCREEN_MAX_LENGTH == 568.0)
 #define IS_IPHONE_4s (SCREEN_MAX_LENGTH == 480.0)
+#define STATUSBAR_HEIGHT ([UIApplication sharedApplication].statusBarFrame.size.height)
+#define NAVIGATIONBAR_HEIGHT (self.navigationController.navigationBar.bounds.size.height)
+#define VIEW_TOP_HEIGHT ([UIApplication sharedApplication].statusBarFrame.size.height + self.navigationController.navigationBar.bounds.size.height);
 
 
 
