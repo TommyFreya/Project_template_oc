@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A710ED9A1F887EB500483857 /* TYCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A710ED991F887EB400483857 /* TYCustomButton.m */; };
 		A734236D1F33250E004981B9 /* TYVerticalImageTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A734236C1F33250E004981B9 /* TYVerticalImageTitleButton.m */; };
 		A73665BD1F68D755001255E7 /* NSMutableArray+TYSafeCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A73665BC1F68D755001255E7 /* NSMutableArray+TYSafeCheck.m */; };
 		A76E6A7E1F1CBC13006F3AC0 /* TYRouteMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = A76E6A7D1F1CBC13006F3AC0 /* TYRouteMap.plist */; };
@@ -96,6 +97,8 @@
 		263870373920F99A2ED8B985 /* Pods-TommyTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TommyTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TommyTemplate/Pods-TommyTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		3A4B1D052F809811E35F67ED /* libPods-TommyTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TommyTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20AB2A1419432F5676FAD6C /* Pods-TommyTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TommyTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-TommyTemplate/Pods-TommyTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		A710ED981F887EB400483857 /* TYCustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYCustomButton.h; sourceTree = "<group>"; };
+		A710ED991F887EB400483857 /* TYCustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYCustomButton.m; sourceTree = "<group>"; };
 		A734236B1F33250E004981B9 /* TYVerticalImageTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYVerticalImageTitleButton.h; sourceTree = "<group>"; };
 		A734236C1F33250E004981B9 /* TYVerticalImageTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYVerticalImageTitleButton.m; sourceTree = "<group>"; };
 		A73665BB1F68D755001255E7 /* NSMutableArray+TYSafeCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+TYSafeCheck.h"; sourceTree = "<group>"; };
@@ -475,6 +478,8 @@
 				A76E9BD61EB9EE0D0091915D /* TYBaseTableViewCell.m */,
 				A76E9BD81EB9F0860091915D /* TYBaseAnimateView.h */,
 				A76E9BD91EB9F0860091915D /* TYBaseAnimateView.m */,
+				A710ED981F887EB400483857 /* TYCustomButton.h */,
+				A710ED991F887EB400483857 /* TYCustomButton.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -1075,6 +1080,7 @@
 				A76E9BF41EBACD7B0091915D /* TYPhotoPreviewService.m in Sources */,
 				A76E9BCB1EB9E8A40091915D /* TYRouteService.m in Sources */,
 				A76E9BE81EBAC5510091915D /* NSMutableDictionary+TYChainParameter.m in Sources */,
+				A710ED9A1F887EB500483857 /* TYCustomButton.m in Sources */,
 				A76E9BB91EB9DBF10091915D /* TYHudAlertService.m in Sources */,
 				A76E9C0A1EBB056C0091915D /* UINavigationBar+StyleConfigure.m in Sources */,
 				A76E9BA41EB9D5A90091915D /* GVUserDefaults.m in Sources */,
