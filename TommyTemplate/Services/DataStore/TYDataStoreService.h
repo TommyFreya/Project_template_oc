@@ -22,6 +22,8 @@ typedef NS_ENUM(NSInteger, TYDataStoreTableType) {
 #pragma mark 存/改
 + (void)putString:(NSString *)string withId:(NSString *)stringId intoTable:(TYDataStoreTableType)tableName;
 + (void)putNumber:(NSNumber *)number withId:(NSString *)numberId intoTable:(TYDataStoreTableType)tableName;
+#pragma mark ---注意-----
+// 如果存数组,数组里面装的是model,必须用yy_modelToJSONObject把数组转为 json 对象才能存,取的时候也要注意
 + (void)putObject:(id)object withId:(NSString *)objectId intoTable:(TYDataStoreTableType)tableName;
 /**
  存储对象
